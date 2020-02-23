@@ -1,6 +1,7 @@
 package net.valeries.mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.block.Block;
 import net.valeries.mod.content.CPlank;
 
 
