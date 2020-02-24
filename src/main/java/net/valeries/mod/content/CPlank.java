@@ -1,6 +1,7 @@
 package net.valeries.mod.content;
 
         import net.valeries.mod.blocks.Wood.CPlankBlock;
+        import net.valeries.mod.blocks.Wood.CPlankSlab;
         import net.valeries.mod.blocks.Wood.CPlankStairs;
 
 public class CPlank {
@@ -39,6 +40,23 @@ public class CPlank {
     public static CPlankStairs WHITE_PLANK_STAIRS;
     public static CPlankStairs YELLOW_PLANK_STAIRS;
 
+    public static CPlankSlab BLEACHED_PLANK_SLAB;
+    public static CPlankSlab BLUE_PLANK_SLAB;
+    public static CPlankSlab BROWN_PLANK_SLAB;
+    public static CPlankSlab CYAN_PLANK_SLAB;
+    public static CPlankSlab GRAY_PLANK_SLAB;
+    public static CPlankSlab GREEN_PLANK_SLAB;
+    public static CPlankSlab LIGHT_BLUE_PLANK_SLAB;
+    public static CPlankSlab LIGHT_GRAY_PLANK_SLAB;
+    public static CPlankSlab LIME_PLANK_SLAB;
+    public static CPlankSlab MAGENTA_PLANK_SLAB;
+    public static CPlankSlab ORANGE_PLANK_SLAB;
+    public static CPlankSlab PINK_PLANK_SLAB;
+    public static CPlankSlab PURPLE_PLANK_SLAB;
+    public static CPlankSlab RED_PLANK_SLAB;
+    public static CPlankSlab WHITE_PLANK_SLAB;
+    public static CPlankSlab YELLOW_PLANK_SLAB;
+
     public static void init() {
 
         BLEACHED_PLANKS = new CPlankBlock("bleached_planks", 2.0f, 15.0f);
@@ -75,6 +93,21 @@ public class CPlank {
         WHITE_PLANK_STAIRS = new CPlankStairs(WHITE_PLANKS.getDefaultState(),"white_plank_stairs", 2.0f, 15.0f);
         YELLOW_PLANK_STAIRS = new CPlankStairs(YELLOW_PLANKS.getDefaultState(),"yellow_plank_stairs", 2.0f, 15.0f);
 
-
+        BLEACHED_PLANK_SLAB = new CPlankSlab("bleached_plank_slab", 2.0f, 15.0f);
+        BLUE_PLANK_SLAB = new CPlankSlab("blue_plank_slab", 2.0f, 15.0f);
+        BROWN_PLANK_SLAB = new CPlankSlab("brown_plank_slab", 2.0f, 15.0f);
+        CYAN_PLANK_SLAB = new CPlankSlab("cyan_plank_slab", 2.0f, 15.0f);
+        GRAY_PLANK_SLAB = new CPlankSlab("gray_plank_slab", 2.0f, 15.0f);
+        GREEN_PLANK_SLAB = new CPlankSlab("green_plank_slab", 2.0f, 15.0f);
+        LIGHT_BLUE_PLANK_SLAB = new CPlankSlab("light_blue_plank_slab", 2.0f, 15.0f);
+        LIGHT_GRAY_PLANK_SLAB = new CPlankSlab("light_gray_plank_slab", 2.0f, 15.0f);
+        LIME_PLANK_SLAB = new CPlankSlab("lime_plank_slab", 2.0f, 15.0f);
+        MAGENTA_PLANK_SLAB = new CPlankSlab("magenta_plank_slab", 2.0f, 15.0f);
+        ORANGE_PLANK_SLAB = new CPlankSlab("orange_plank_slab", 2.0f, 15.0f);
+        PINK_PLANK_SLAB = new CPlankSlab("pink_plank_slab", 2.0f, 15.0f);
+        PURPLE_PLANK_SLAB = new CPlankSlab("purple_plank_slab", 2.0f, 15.0f);
+        RED_PLANK_SLAB = new CPlankSlab("red_plank_slab", 2.0f, 15.0f);
+        WHITE_PLANK_SLAB = new CPlankSlab("white_plank_slab", 2.0f, 15.0f);
+        YELLOW_PLANK_SLAB = new CPlankSlab("yellow_plank_slab", 2.0f, 15.0f);
     }
 }

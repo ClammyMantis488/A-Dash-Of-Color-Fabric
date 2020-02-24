@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "val:block/brown_planks",
+    "top": "val:block/brown_planks",
+    "side": "val:block/brown_planks"
+  }
+}
