@@ -1,6 +1,7 @@
 {
   "itemGroup.val.valsmod_blocks": "Valerie's Mod Blocks",
   "block.val.bleached_planks": "Bleached Planks",
+  "block.val.black_planks": "Black Planks",
   "block.val.blue_planks": "Blue Planks",
   "block.val.brown_planks": "Brown Planks",
   "block.val.cyan_planks": "Cyan Planks",
@@ -17,6 +18,7 @@
   "block.val.white_planks": "White Planks",
   "block.val.yellow_planks": "Yellow Planks",
   "block.val.bleached_plank_stairs": "Bleached Plank Stairs",
+  "block.val.black_plank_stairs": "Black Plank Stairs",
   "block.val.blue_plank_stairs": "Blue Plank Stairs",
   "block.val.brown_plank_stairs": "Brown Plank Stairs",
   "block.val.cyan_plank_stairs": "Cyan Plank Stairs",
@@ -33,6 +35,7 @@
   "block.val.white_plank_stairs": "White Plank Stairs",
   "block.val.yellow_plank_stairs": "Yellow Plank Stairs",
   "block.val.bleached_plank_slab": "Bleached Plank Slab",
+  "block.val.black_plank_slab": "Black Plank Slab",
   "block.val.blue_plank_slab": "Blue Plank Slab",
   "block.val.brown_plank_slab": "Brown Plank Slab",
   "block.val.cyan_plank_slab": "Cyan Plank Slab",

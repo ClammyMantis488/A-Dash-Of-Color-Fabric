@@ -7,6 +7,7 @@ package net.valeries.mod.content;
 public class CPlank {
 
     public static CPlankBlock BLEACHED_PLANKS;
+    public static CPlankBlock BLACK_PLANKS;
     public static CPlankBlock BLUE_PLANKS;
     public static CPlankBlock BROWN_PLANKS;
     public static CPlankBlock CYAN_PLANKS;
@@ -24,6 +25,7 @@ public class CPlank {
     public static CPlankBlock YELLOW_PLANKS;
 
     public static CPlankStairs BLEACHED_PLANK_STAIRS;
+    public static CPlankStairs BLACK_PLANK_STAIRS;
     public static CPlankStairs BLUE_PLANK_STAIRS;
     public static CPlankStairs BROWN_PLANK_STAIRS;
     public static CPlankStairs CYAN_PLANK_STAIRS;
@@ -41,6 +43,7 @@ public class CPlank {
     public static CPlankStairs YELLOW_PLANK_STAIRS;
 
     public static CPlankSlab BLEACHED_PLANK_SLAB;
+    public static CPlankSlab BLACK_PLANK_SLAB;
     public static CPlankSlab BLUE_PLANK_SLAB;
     public static CPlankSlab BROWN_PLANK_SLAB;
     public static CPlankSlab CYAN_PLANK_SLAB;
@@ -60,6 +63,7 @@ public class CPlank {
     public static void init() {
 
         BLEACHED_PLANKS = new CPlankBlock("bleached_planks", 2.0f, 15.0f);
+        BLACK_PLANKS = new CPlankBlock("black_planks", 2.0f, 15.0f);
         BLUE_PLANKS = new CPlankBlock("blue_planks", 2.0f, 15.0f);
         BROWN_PLANKS = new CPlankBlock("brown_planks", 2.0f, 15.0f);
         CYAN_PLANKS = new CPlankBlock("cyan_planks", 2.0f, 15.0f);
@@ -77,6 +81,7 @@ public class CPlank {
         YELLOW_PLANKS = new CPlankBlock("yellow_planks", 2.0f, 15.0f);
 
         BLEACHED_PLANK_STAIRS = new CPlankStairs(BLEACHED_PLANKS.getDefaultState(), "bleached_plank_stairs", 2.0f, 15.0f);
+        BLACK_PLANK_STAIRS = new CPlankStairs(BLACK_PLANKS.getDefaultState(), "black_plank_stairs", 2.0f, 15.0f);
         BLUE_PLANK_STAIRS = new CPlankStairs(BLUE_PLANKS.getDefaultState(),"blue_plank_stairs", 2.0f, 15.0f);
         BROWN_PLANK_STAIRS = new CPlankStairs(BROWN_PLANKS.getDefaultState(),"brown_plank_stairs", 2.0f, 15.0f);
         CYAN_PLANK_STAIRS = new CPlankStairs(CYAN_PLANKS.getDefaultState(),"cyan_plank_stairs", 2.0f, 15.0f);
@@ -94,6 +99,7 @@ public class CPlank {
         YELLOW_PLANK_STAIRS = new CPlankStairs(YELLOW_PLANKS.getDefaultState(),"yellow_plank_stairs", 2.0f, 15.0f);
 
         BLEACHED_PLANK_SLAB = new CPlankSlab("bleached_plank_slab", 2.0f, 15.0f);
+        BLACK_PLANK_SLAB = new CPlankSlab("black_plank_slab", 2.0f, 15.0f);
         BLUE_PLANK_SLAB = new CPlankSlab("blue_plank_slab", 2.0f, 15.0f);
         BROWN_PLANK_SLAB = new CPlankSlab("brown_plank_slab", 2.0f, 15.0f);
         CYAN_PLANK_SLAB = new CPlankSlab("cyan_plank_slab", 2.0f, 15.0f);
