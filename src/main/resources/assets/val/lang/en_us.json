@@ -17,6 +17,7 @@
   "block.val.red_planks": "Red Planks",
   "block.val.white_planks": "White Planks",
   "block.val.yellow_planks": "Yellow Planks",
+
   "block.val.bleached_plank_stairs": "Bleached Plank Stairs",
   "block.val.black_plank_stairs": "Black Plank Stairs",
   "block.val.blue_plank_stairs": "Blue Plank Stairs",
@@ -34,6 +35,7 @@
   "block.val.red_plank_stairs": "Red Plank Stairs",
   "block.val.white_plank_stairs": "White Plank Stairs",
   "block.val.yellow_plank_stairs": "Yellow Plank Stairs",
+
   "block.val.bleached_plank_slab": "Bleached Plank Slab",
   "block.val.black_plank_slab": "Black Plank Slab",
   "block.val.blue_plank_slab": "Blue Plank Slab",
@@ -50,5 +52,23 @@
   "block.val.purple_plank_slab": "Purple Plank Slab",
   "block.val.red_plank_slab": "Red Plank Slab",
   "block.val.white_plank_slab": "White Plank Slab",
-  "block.val.yellow_plank_slab": "Yellow Plank Slab"
+  "block.val.yellow_plank_slab": "Yellow Plank Slab",
+
+  "block.val.bleached_plank_fence": "Bleached Plank Fence",
+  "block.val.black_plank_fence": "Black Plank Fence",
+  "block.val.blue_plank_fence": "Blue Plank Fence",
+  "block.val.brown_plank_fence": "Brown Plank Fence",
+  "block.val.cyan_plank_fence": "Cyan Plank Fence",
+  "block.val.gray_plank_fence": "Gray Plank Fence",
+  "block.val.green_plank_fence": "Green Plank Fence",
+  "block.val.light_blue_plank_fence": "Light Blue Plank Fence",
+  "block.val.light_gray_plank_fence": "Light Gray Plank Fence",
+  "block.val.lime_plank_fence": "Lime Plank Fence",
+  "block.val.magenta_plank_fence": "Magenta Plank Fence",
+  "block.val.orange_plank_fence": "Orange Plank Fence",
+  "block.val.pink_plank_fence": "Pink Plank Fence",
+  "block.val.purple_plank_fence": "Purple Plank Fence",
+  "block.val.red_plank_fence": "Red Plank Fence",
+  "block.val.white_plank_fence": "White Plank Fence",
+  "block.val.yellow_plank_fence": "Yellow Plank Fence"
 }

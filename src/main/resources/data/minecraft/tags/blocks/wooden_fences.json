@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_fence",
+    "minecraft:acacia_fence",
+    "minecraft:dark_oak_fence",
+    "minecraft:spruce_fence",
+    "minecraft:birch_fence",
+    "minecraft:jungle_fence",
+    "val:bleached_plank_fence",
+    "val:black_plank_fence",
+    "val:blue_plank_fence",
+    "val:brown_plank_fence",
+    "val:cyan_plank_fence",
+    "val:gray_plank_fence",
+    "val:green_plank_fence",
+    "val:light_blue_plank_fence",
+    "val:light_gray_plank_fence",
+    "val:lime_plank_fence",
+    "val:magenta_plank_fence",
+    "val:orange_plank_fence",
+    "val:pink_plank_fence",
+    "val:purple_plank_fence",
+    "val:red_plank_fence",
+    "val:white_plank_fence",
+    "val:yellow_plank_fence"
+  ]
+}
