@@ -94,6 +94,24 @@ public class CPlank {
     public static CPlankFenceGate WHITE_PLANK_FENCE_GATE;
     public static CPlankFenceGate YELLOW_PLANK_FENCE_GATE;
 
+    public static CPlankButton BLEACHED_PLANK_BUTTON;
+    public static CPlankButton BLACK_PLANK_BUTTON;
+    public static CPlankButton BLUE_PLANK_BUTTON;
+    public static CPlankButton BROWN_PLANK_BUTTON;
+    public static CPlankButton CYAN_PLANK_BUTTON;
+    public static CPlankButton GRAY_PLANK_BUTTON;
+    public static CPlankButton GREEN_PLANK_BUTTON;
+    public static CPlankButton LIGHT_BLUE_PLANK_BUTTON;
+    public static CPlankButton LIGHT_GRAY_PLANK_BUTTON;
+    public static CPlankButton LIME_PLANK_BUTTON;
+    public static CPlankButton MAGENTA_PLANK_BUTTON;
+    public static CPlankButton ORANGE_PLANK_BUTTON;
+    public static CPlankButton PINK_PLANK_BUTTON;
+    public static CPlankButton PURPLE_PLANK_BUTTON;
+    public static CPlankButton RED_PLANK_BUTTON;
+    public static CPlankButton WHITE_PLANK_BUTTON;
+    public static CPlankButton YELLOW_PLANK_BUTTON;
+
     public static void init() {
         BLEACHED_PLANKS = new CPlankBlock("bleached_planks", 2.0f, 15.0f);
         BLACK_PLANKS = new CPlankBlock("black_planks", 2.0f, 15.0f);
@@ -184,5 +202,23 @@ public class CPlank {
         RED_PLANK_FENCE_GATE = new CPlankFenceGate("red_plank_fence_gate", 2.0f, 15.0f);
         WHITE_PLANK_FENCE_GATE = new CPlankFenceGate("white_plank_fence_gate", 2.0f, 15.0f);
         YELLOW_PLANK_FENCE_GATE = new CPlankFenceGate("yellow_plank_fence_gate", 2.0f, 15.0f);
+
+        BLEACHED_PLANK_BUTTON = new CPlankButton("bleached_plank_button", 2.0f, 15.0f);
+        BLACK_PLANK_BUTTON = new CPlankButton("black_plank_button", 2.0f, 15.0f);
+        BLUE_PLANK_BUTTON = new CPlankButton("blue_plank_button", 2.0f, 15.0f);
+        BROWN_PLANK_BUTTON = new CPlankButton("brown_plank_button", 2.0f, 15.0f);
+        CYAN_PLANK_BUTTON = new CPlankButton("cyan_plank_button", 2.0f, 15.0f);
+        GRAY_PLANK_BUTTON = new CPlankButton("gray_plank_button", 2.0f, 15.0f);
+        GREEN_PLANK_BUTTON = new CPlankButton("green_plank_button", 2.0f, 15.0f);
+        LIGHT_BLUE_PLANK_BUTTON = new CPlankButton("light_blue_plank_button", 2.0f, 15.0f);
+        LIGHT_GRAY_PLANK_BUTTON = new CPlankButton("light_gray_plank_button", 2.0f, 15.0f);
+        LIME_PLANK_BUTTON = new CPlankButton("lime_plank_button", 2.0f, 15.0f);
+        MAGENTA_PLANK_BUTTON = new CPlankButton("magenta_plank_button", 2.0f, 15.0f);
+        ORANGE_PLANK_BUTTON = new CPlankButton("orange_plank_button", 2.0f, 15.0f);
+        PINK_PLANK_BUTTON = new CPlankButton("pink_plank_button", 2.0f, 15.0f);
+        PURPLE_PLANK_BUTTON = new CPlankButton("purple_plank_button", 2.0f, 15.0f);
+        RED_PLANK_BUTTON = new CPlankButton("red_plank_button", 2.0f, 15.0f);
+        WHITE_PLANK_BUTTON = new CPlankButton("white_plank_button", 2.0f, 15.0f);
+        YELLOW_PLANK_BUTTON = new CPlankButton("yellow_plank_button", 2.0f, 15.0f);
     }
 }

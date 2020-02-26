@@ -88,5 +88,23 @@
   "block.val.purple_plank_fence_gate": "Purple Plank Fence Gate",
   "block.val.red_plank_fence_gate": "Red Plank Fence Gate",
   "block.val.white_plank_fence_gate": "White Plank Fence Gate",
-  "block.val.yellow_plank_fence_gate": "Yellow Plank Fence Gate"
+  "block.val.yellow_plank_fence_gate": "Yellow Plank Fence Gate",
+
+  "block.val.bleached_plank_button": "Bleached Plank Button",
+  "block.val.black_plank_button": "Black Plank Button",
+  "block.val.blue_plank_button": "Blue Plank Button",
+  "block.val.brown_plank_button": "Brown Plank Button",
+  "block.val.cyan_plank_button": "Cyan Plank Button",
+  "block.val.gray_plank_button": "Gray Plank Button",
+  "block.val.green_plank_button": "Green Plank Button",
+  "block.val.light_blue_plank_button": "Light Blue Plank Button",
+  "block.val.light_gray_plank_button": "Light Gray Plank Button",
+  "block.val.lime_plank_button": "Lime Plank Button",
+  "block.val.magenta_plank_button": "Magenta Plank Button",
+  "block.val.orange_plank_button": "Orange Plank Button",
+  "block.val.pink_plank_button": "Pink Plank Button",
+  "block.val.purple_plank_button": "Purple Plank Button",
+  "block.val.red_plank_button": "Red Plank Button",
+  "block.val.white_plank_button": "White Plank Button",
+  "block.val.yellow_plank_button": "Yellow Plank Button"
 }
