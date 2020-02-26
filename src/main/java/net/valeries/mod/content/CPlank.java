@@ -1,9 +1,6 @@
 package net.valeries.mod.content;
 
-        import net.valeries.mod.blocks.Wood.CPlankBlock;
-        import net.valeries.mod.blocks.Wood.CPlankFence;
-        import net.valeries.mod.blocks.Wood.CPlankSlab;
-        import net.valeries.mod.blocks.Wood.CPlankStairs;
+        import net.valeries.mod.blocks.Wood.*;
 
 public class CPlank {
 
@@ -79,6 +76,24 @@ public class CPlank {
     public static CPlankFence WHITE_PLANK_FENCE;
     public static CPlankFence YELLOW_PLANK_FENCE;
 
+    public static CPlankFenceGate BLEACHED_PLANK_FENCE_GATE;
+    public static CPlankFenceGate BLACK_PLANK_FENCE_GATE;
+    public static CPlankFenceGate BLUE_PLANK_FENCE_GATE;
+    public static CPlankFenceGate BROWN_PLANK_FENCE_GATE;
+    public static CPlankFenceGate CYAN_PLANK_FENCE_GATE;
+    public static CPlankFenceGate GRAY_PLANK_FENCE_GATE;
+    public static CPlankFenceGate GREEN_PLANK_FENCE_GATE;
+    public static CPlankFenceGate LIGHT_BLUE_PLANK_FENCE_GATE;
+    public static CPlankFenceGate LIGHT_GRAY_PLANK_FENCE_GATE;
+    public static CPlankFenceGate LIME_PLANK_FENCE_GATE;
+    public static CPlankFenceGate MAGENTA_PLANK_FENCE_GATE;
+    public static CPlankFenceGate ORANGE_PLANK_FENCE_GATE;
+    public static CPlankFenceGate PINK_PLANK_FENCE_GATE;
+    public static CPlankFenceGate PURPLE_PLANK_FENCE_GATE;
+    public static CPlankFenceGate RED_PLANK_FENCE_GATE;
+    public static CPlankFenceGate WHITE_PLANK_FENCE_GATE;
+    public static CPlankFenceGate YELLOW_PLANK_FENCE_GATE;
+
     public static void init() {
         BLEACHED_PLANKS = new CPlankBlock("bleached_planks", 2.0f, 15.0f);
         BLACK_PLANKS = new CPlankBlock("black_planks", 2.0f, 15.0f);
@@ -151,5 +166,23 @@ public class CPlank {
         RED_PLANK_FENCE = new CPlankFence("red_plank_fence", 2.0f, 15.0f);
         WHITE_PLANK_FENCE = new CPlankFence("white_plank_fence", 2.0f, 15.0f);
         YELLOW_PLANK_FENCE = new CPlankFence("yellow_plank_fence", 2.0f, 15.0f);
+
+        BLEACHED_PLANK_FENCE_GATE = new CPlankFenceGate("bleached_plank_fence_gate", 2.0f, 15.0f);
+        BLACK_PLANK_FENCE_GATE = new CPlankFenceGate("black_plank_fence_gate", 2.0f, 15.0f);
+        BLUE_PLANK_FENCE_GATE = new CPlankFenceGate("blue_plank_fence_gate", 2.0f, 15.0f);
+        BROWN_PLANK_FENCE_GATE = new CPlankFenceGate("brown_plank_fence_gate", 2.0f, 15.0f);
+        CYAN_PLANK_FENCE_GATE = new CPlankFenceGate("cyan_plank_fence_gate", 2.0f, 15.0f);
+        GRAY_PLANK_FENCE_GATE = new CPlankFenceGate("gray_plank_fence_gate", 2.0f, 15.0f);
+        GREEN_PLANK_FENCE_GATE = new CPlankFenceGate("green_plank_fence_gate", 2.0f, 15.0f);
+        LIGHT_BLUE_PLANK_FENCE_GATE = new CPlankFenceGate("light_blue_plank_fence_gate", 2.0f, 15.0f);
+        LIGHT_GRAY_PLANK_FENCE_GATE = new CPlankFenceGate("light_gray_plank_fence_gate", 2.0f, 15.0f);
+        LIME_PLANK_FENCE_GATE = new CPlankFenceGate("lime_plank_fence_gate", 2.0f, 15.0f);
+        MAGENTA_PLANK_FENCE_GATE = new CPlankFenceGate("magenta_plank_fence_gate", 2.0f, 15.0f);
+        ORANGE_PLANK_FENCE_GATE = new CPlankFenceGate("orange_plank_fence_gate", 2.0f, 15.0f);
+        PINK_PLANK_FENCE_GATE = new CPlankFenceGate("pink_plank_fence_gate", 2.0f, 15.0f);
+        PURPLE_PLANK_FENCE_GATE = new CPlankFenceGate("purple_plank_fence_gate", 2.0f, 15.0f);
+        RED_PLANK_FENCE_GATE = new CPlankFenceGate("red_plank_fence_gate", 2.0f, 15.0f);
+        WHITE_PLANK_FENCE_GATE = new CPlankFenceGate("white_plank_fence_gate", 2.0f, 15.0f);
+        YELLOW_PLANK_FENCE_GATE = new CPlankFenceGate("yellow_plank_fence_gate", 2.0f, 15.0f);
     }
 }

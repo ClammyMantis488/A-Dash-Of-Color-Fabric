@@ -70,5 +70,23 @@
   "block.val.purple_plank_fence": "Purple Plank Fence",
   "block.val.red_plank_fence": "Red Plank Fence",
   "block.val.white_plank_fence": "White Plank Fence",
-  "block.val.yellow_plank_fence": "Yellow Plank Fence"
+  "block.val.yellow_plank_fence": "Yellow Plank Fence",
+
+  "block.val.bleached_plank_fence_gate": "Bleached Plank Fence Gate",
+  "block.val.black_plank_fence_gate": "Black Plank Fence Gate",
+  "block.val.blue_plank_fence_gate": "Blue Plank Fence Gate",
+  "block.val.brown_plank_fence_gate": "Brown Plank Fence Gate",
+  "block.val.cyan_plank_fence_gate": "Cyan Plank Fence Gate",
+  "block.val.gray_plank_fence_gate": "Gray Plank Fence Gate",
+  "block.val.green_plank_fence_gate": "Green Plank Fence Gate",
+  "block.val.light_blue_plank_fence_gate": "Light Blue Plank Fence Gate",
+  "block.val.light_gray_plank_fence_gate": "Light Gray Plank Fence Gate",
+  "block.val.lime_plank_fence_gate": "Lime Plank Fence Gate",
+  "block.val.magenta_plank_fence_gate": "Magenta Plank Fence Gate",
+  "block.val.orange_plank_fence_gate": "Orange Plank Fence Gate",
+  "block.val.pink_plank_fence_gate": "Pink Plank Fence Gate",
+  "block.val.purple_plank_fence_gate": "Purple Plank Fence Gate",
+  "block.val.red_plank_fence_gate": "Red Plank Fence Gate",
+  "block.val.white_plank_fence_gate": "White Plank Fence Gate",
+  "block.val.yellow_plank_fence_gate": "Yellow Plank Fence Gate"
 }
