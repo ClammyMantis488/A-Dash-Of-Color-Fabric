@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+/*import net.valeries.mod.blocks.Misc.CHopperBlock;*/
 import net.valeries.mod.content.CPlank;
 
 
@@ -16,5 +17,7 @@ public class val implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		CPlank.init();
+	/*	CHopperBlock.init();*/
+
 	}
 }
