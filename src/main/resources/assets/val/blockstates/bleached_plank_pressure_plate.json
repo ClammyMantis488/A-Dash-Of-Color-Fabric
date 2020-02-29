@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "val:block/bleached_plank_pressure_plate" },
+    "powered=true": { "model": "val:block/bleached_plank_pressure_plate_down" }
+  }
+}

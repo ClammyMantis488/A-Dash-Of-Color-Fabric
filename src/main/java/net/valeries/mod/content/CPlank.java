@@ -1,5 +1,6 @@
 package net.valeries.mod.content;
 
+        import net.minecraft.block.PressurePlateBlock;
         import net.valeries.mod.blocks.Wood.*;
 
 public class CPlank {
@@ -112,6 +113,24 @@ public class CPlank {
     public static CPlankButton WHITE_PLANK_BUTTON;
     public static CPlankButton YELLOW_PLANK_BUTTON;
 
+    public static CPlankPressurePlate BLEACHED_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate BLACK_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate BLUE_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate BROWN_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate CYAN_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate GRAY_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate GREEN_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate LIGHT_BLUE_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate LIGHT_GRAY_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate LIME_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate MAGENTA_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate ORANGE_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate PINK_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate PURPLE_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate RED_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate WHITE_PLANK_PRESSURE_PLATE;
+    public static CPlankPressurePlate YELLOW_PLANK_PRESSURE_PLATE;
+
     public static void init() {
         BLEACHED_PLANKS = new CPlankBlock("bleached_planks", 2.0f, 15.0f);
         BLACK_PLANKS = new CPlankBlock("black_planks", 2.0f, 15.0f);
@@ -220,5 +239,24 @@ public class CPlank {
         RED_PLANK_BUTTON = new CPlankButton("red_plank_button", 2.0f, 15.0f);
         WHITE_PLANK_BUTTON = new CPlankButton("white_plank_button", 2.0f, 15.0f);
         YELLOW_PLANK_BUTTON = new CPlankButton("yellow_plank_button", 2.0f, 15.0f);
+
+        BLEACHED_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("bleached_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        BLACK_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("black_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        BLUE_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("blue_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        BROWN_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("brown_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        CYAN_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("cyan_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        GRAY_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("gray_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        GREEN_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("green_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        LIGHT_BLUE_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("light_blue_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        LIGHT_GRAY_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("light_gray_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        LIME_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("lime_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        MAGENTA_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("magenta_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        ORANGE_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("orange_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        PINK_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("pink_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        PURPLE_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("purple_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        RED_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("red_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        WHITE_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("white_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+        YELLOW_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("yellow_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+
     }
 }
