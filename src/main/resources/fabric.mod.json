@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "val",
-  "version": "${version}",
+  "version": "0.0.1",
 
   "name": "Valerie's Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -14,7 +14,7 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "icon": "assets/val/icon.png",
 
   "environment": "*",
