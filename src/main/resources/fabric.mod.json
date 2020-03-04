@@ -15,7 +15,7 @@
   },
 
   "license": "GPLv3",
-  "icon": "assets/val/icon.png",
+  "icon": "assets/dashofcolor/icon.png",
 
   "environment": "*",
   "entrypoints": {
