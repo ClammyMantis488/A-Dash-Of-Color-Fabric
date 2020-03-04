@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "val:block/bleached_planks",
-    "top": "val:block/bleached_planks",
-    "side": "val:block/bleached_planks"
-  }
-}

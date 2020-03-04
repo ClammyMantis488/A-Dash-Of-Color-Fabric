@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dashofcolor:block/yellow_planks",
+    "top": "dashofcolor:block/yellow_planks",
+    "side": "dashofcolor:block/yellow_planks"
+  }
+}

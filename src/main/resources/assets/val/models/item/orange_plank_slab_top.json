@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "val:block/orange_planks",
-    "top": "val:block/orange_planks",
-    "side": "val:block/orange_planks"
-  }
-}

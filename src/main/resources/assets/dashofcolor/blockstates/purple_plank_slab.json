@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "type=bottom": { "model": "dashofcolor:block/purple_plank_slab" },
+    "type=top": { "model": "dashofcolor:block/purple_plank_slab_top" },
+    "type=double": { "model": "dashofcolor:block/purple_planks" }
+  }
+}
+

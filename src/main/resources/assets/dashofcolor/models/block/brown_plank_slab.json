@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dashofcolor:block/brown_planks",
+    "top": "dashofcolor:block/brown_planks",
+    "side": "dashofcolor:block/brown_planks"
+  }
+}

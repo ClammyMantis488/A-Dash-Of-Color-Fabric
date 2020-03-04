@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "type=bottom": { "model": "val:block/light_gray_plank_slab" },
-    "type=top": { "model": "val:block/light_gray_plank_slab_top" },
-    "type=double": { "model": "val:block/light_gray_planks" }
-  }
-}
-

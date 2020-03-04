@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "dashofcolor:block/cyan_planks",
+    "top": "dashofcolor:block/cyan_planks",
+    "side": "dashofcolor:block/cyan_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "dashofcolor:block/bleached_plank_pressure_plate" },
+    "powered=true": { "model": "dashofcolor:block/bleached_plank_pressure_plate_down" }
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "type=bottom": { "model": "val:block/red_plank_slab" },
-    "type=top": { "model": "val:block/red_plank_slab_top" },
-    "type=double": { "model": "val:block/red_planks" }
-  }
-}
-

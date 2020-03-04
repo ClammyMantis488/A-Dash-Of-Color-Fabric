@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "val",
+  "id": "adashofcolor",
   "version": "0.0.1",
 
-  "name": "Valerie's Mod",
+  "name": "A Dash Of Color",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "ClammyMantis488",
@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.valeries.mod.val"
+      "net.adashofcolor.mod.ADashOfColor"
     ]
   },
 
