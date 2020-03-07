@@ -1,6 +1,8 @@
 package net.adashofcolor.mod;
 
 import net.adashofcolor.mod.content.CPlank;
+import net.adashofcolor.mod.content.CSlimeBlock;
+import net.adashofcolor.mod.content.CTorch;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -17,6 +19,9 @@ public class ADashOfColor implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		CPlank.init();
+		CSlimeBlock.init();
+		CTorch.init();
+		new ADashOfColorClient();
 	/*	CHopperBlock.init();*/
 
 	}

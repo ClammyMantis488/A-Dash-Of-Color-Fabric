@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "adashofcolor",
-  "version": "0.0.2",
+  "version": "0.0.3",
 
   "name": "A Dash Of Color",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Remember that tweet by Dinnerbone about colored wood 7 years ago? I do.",
   "authors": [
     "ClammyMantis488",
     "vales0310"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/ClammyMantis488/A-Dash-Of-Color-Fabric",
+    "sources": "https://github.com/ClammyMantis488/A-Dash-Of-Color-Fabric"
   },
 
   "license": "GPLv3",
