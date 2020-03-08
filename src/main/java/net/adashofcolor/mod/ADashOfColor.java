@@ -4,7 +4,9 @@ import net.adashofcolor.mod.content.CPlank;
 import net.adashofcolor.mod.content.CSlimeBlock;
 import net.adashofcolor.mod.content.CTorch;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -21,7 +23,9 @@ public class ADashOfColor implements ModInitializer {
 		CPlank.init();
 		CSlimeBlock.init();
 		CTorch.init();
-		new ADashOfColorClient();
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+				CTorch.PINK_TORCH,
+				CTorch.PINK_WALL_TORCH);
 	/*	CHopperBlock.init();*/
 
 	}
