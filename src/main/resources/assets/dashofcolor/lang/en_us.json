@@ -126,5 +126,24 @@
   "block.dashofcolor.white_plank_pressure_plate": "White Plank Pressure Plate",
   "block.dashofcolor.yellow_plank_pressure_plate": "Yellow Plank Pressure Plate",
 
-  "block.dashofcolor.pink_torch": "Pink Torch"
+  "block.dashofcolor.black_torch": "Black Torch",
+  "block.dashofcolor.blue_torch": "Blue Torch",
+  "block.dashofcolor.brown_torch": "Brown Torch",
+  "block.dashofcolor.cyan_torch": "Cyan Torch",
+  "block.dashofcolor.gray_torch": "Gray Torch",
+  "block.dashofcolor.green_torch": "Green Torch",
+  "block.dashofcolor.light_blue_torch": "Light Blue Torch",
+  "block.dashofcolor.light_gray_torch": "Light Gray Torch",
+  "block.dashofcolor.lime_torch": "Lime Torch",
+  "block.dashofcolor.magenta_torch": "Magenta Torch",
+  "block.dashofcolor.orange_torch": "Orange Torch",
+  "block.dashofcolor.pink_torch": "Pink Torch",
+  "block.dashofcolor.purple_torch": "Purple Torch",
+  "block.dashofcolor.red_torch": "Red Torch",
+  "block.dashofcolor.white_torch": "White Torch",
+  "block.dashofcolor.yellow_torch": "Yellow Torch",
+
+  "block.dashofcolor.bleached_torch": "Bleached Torch",
+  "block.dashofcolor.bleached_wall_torch": "Bleached Torch",
+  "block.dashofcolor.bleached_torch_block": "Bleached Torch"
 }

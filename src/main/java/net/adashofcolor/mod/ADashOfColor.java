@@ -24,8 +24,40 @@ public class ADashOfColor implements ModInitializer {
 		CSlimeBlock.init();
 		CTorch.init();
 		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+				CTorch.BLEACHED_TORCH,
+				CTorch.BLEACHED_WALL_TORCH,
+				CTorch.BLACK_TORCH,
+				CTorch.BLACK_WALL_TORCH,
+				CTorch.BLUE_TORCH,
+				CTorch.BLUE_WALL_TORCH,
+				CTorch.BROWN_TORCH,
+				CTorch.BROWN_WALL_TORCH,
+				CTorch.CYAN_TORCH,
+				CTorch.CYAN_WALL_TORCH,
+				CTorch.GRAY_TORCH,
+				CTorch.GRAY_WALL_TORCH,
+				CTorch.GREEN_TORCH,
+				CTorch.GREEN_WALL_TORCH,
+				CTorch.LIGHT_BLUE_TORCH,
+				CTorch.LIGHT_BLUE_WALL_TORCH,
+				CTorch.LIGHT_GRAY_TORCH,
+				CTorch.LIGHT_GRAY_WALL_TORCH,
+				CTorch.LIME_TORCH,
+				CTorch.LIME_WALL_TORCH,
+				CTorch.MAGENTA_TORCH,
+				CTorch.MAGENTA_WALL_TORCH,
+				CTorch.ORANGE_TORCH,
+				CTorch.ORANGE_WALL_TORCH,
 				CTorch.PINK_TORCH,
-				CTorch.PINK_WALL_TORCH);
+				CTorch.PINK_WALL_TORCH,
+				CTorch.PURPLE_TORCH,
+				CTorch.PURPLE_WALL_TORCH,
+				CTorch.RED_TORCH,
+				CTorch.RED_WALL_TORCH,
+				CTorch.WHITE_TORCH,
+				CTorch.WHITE_WALL_TORCH,
+				CTorch.YELLOW_TORCH,
+				CTorch.YELLOW_WALL_TORCH);
 	/*	CHopperBlock.init();*/
 
 	}

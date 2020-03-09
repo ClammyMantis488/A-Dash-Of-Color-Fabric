@@ -2,7 +2,7 @@
 Basically a mod that adds random stuff I want colored.
 ![All the colored wood I've added so far](https://user-images.githubusercontent.com/25406353/75845735-e52ea500-5d8e-11ea-9298-b9f4ab1a41eb.png)
 ## Issues
-> Please contribute issues and or pull requests. I am extremely amateur as in I'm copying how other mods do it to learn. Big thanks goes to Brandcraft as it's pretty much structured exactly like his mods.
+> Please contribute issues and/or pull requests. I am so amateur I'm copying other mods to learn. Big thanks goes to Brandcraft as it's pretty much structured exactly like his mods.
 
 
 

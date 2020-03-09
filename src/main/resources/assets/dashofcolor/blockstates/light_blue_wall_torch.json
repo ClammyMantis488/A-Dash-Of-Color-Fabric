@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dashofcolor:block/light_blue_wall_torch"
+    },
+    "facing=south": {
+      "model": "dashofcolor:block/light_blue_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "dashofcolor:block/light_blue_wall_torch",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "dashofcolor:block/light_blue_wall_torch",
+      "y": 270
+    }
+  }
+}
