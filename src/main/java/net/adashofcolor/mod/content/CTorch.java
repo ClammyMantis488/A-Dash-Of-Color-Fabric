@@ -64,6 +64,7 @@ public class CTorch {
     public static CTorchItem RED_TORCH_ITEM;
     public static CTorchItem WHITE_TORCH_ITEM;
     public static CTorchItem YELLOW_TORCH_ITEM;
+
     public static void init() {
 
         BLEACHED_TORCH = new CTorchBlock("bleached_torch_block");

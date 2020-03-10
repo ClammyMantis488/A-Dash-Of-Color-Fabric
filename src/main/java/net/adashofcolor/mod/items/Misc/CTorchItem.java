@@ -30,6 +30,5 @@ public class CTorchItem {
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.RED_TORCH, CTorch.RED_WALL_TORCH, new Item.Settings().maxCount(64)));
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.WHITE_TORCH, CTorch.WHITE_WALL_TORCH, new Item.Settings().maxCount(64)));
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.YELLOW_TORCH, CTorch.YELLOW_WALL_TORCH, new Item.Settings().maxCount(64)));*/
-
     }
 }
