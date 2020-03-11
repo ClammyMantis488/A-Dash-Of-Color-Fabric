@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y":  { "model": "dashofcolor:block/stripped_light_gray_log" },
+    "axis=z":   { "model": "dashofcolor:block/stripped_light_gray_log", "x": 90 },
+    "axis=x":   { "model": "dashofcolor:block/stripped_light_gray_log", "x": 90, "y": 90 }
+  }
+}

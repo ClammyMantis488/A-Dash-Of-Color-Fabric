@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "dashofcolor:block/stripped_magenta_wood" },
+    "axis=z": { "model": "dashofcolor:block/stripped_magenta_wood", "x": 90 },
+    "axis=x": { "model": "dashofcolor:block/stripped_magenta_wood", "x": 90, "y": 90 }
+  }
+}

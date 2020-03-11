@@ -131,6 +131,42 @@ public class CPlank {
     public static CPlankPressurePlate WHITE_PLANK_PRESSURE_PLATE;
     public static CPlankPressurePlate YELLOW_PLANK_PRESSURE_PLATE;
 
+    public static CStrippedLog STRIPPED_BLEACHED_LOG;
+    public static CStrippedLog STRIPPED_BLACK_LOG;
+    public static CStrippedLog STRIPPED_BLUE_LOG;
+    public static CStrippedLog STRIPPED_BROWN_LOG;
+    public static CStrippedLog STRIPPED_CYAN_LOG;
+    public static CStrippedLog STRIPPED_GRAY_LOG;
+    public static CStrippedLog STRIPPED_GREEN_LOG;
+    public static CStrippedLog STRIPPED_LIGHT_BLUE_LOG;
+    public static CStrippedLog STRIPPED_LIGHT_GRAY_LOG;
+    public static CStrippedLog STRIPPED_LIME_LOG;
+    public static CStrippedLog STRIPPED_MAGENTA_LOG;
+    public static CStrippedLog STRIPPED_ORANGE_LOG;
+    public static CStrippedLog STRIPPED_PINK_LOG;
+    public static CStrippedLog STRIPPED_PURPLE_LOG;
+    public static CStrippedLog STRIPPED_RED_LOG;
+    public static CStrippedLog STRIPPED_WHITE_LOG;
+    public static CStrippedLog STRIPPED_YELLOW_LOG;
+
+    public static CStrippedWood STRIPPED_BLEACHED_WOOD;
+    public static CStrippedWood STRIPPED_BLACK_WOOD;
+    public static CStrippedWood STRIPPED_BLUE_WOOD;
+    public static CStrippedWood STRIPPED_BROWN_WOOD;
+    public static CStrippedWood STRIPPED_CYAN_WOOD;
+    public static CStrippedWood STRIPPED_GRAY_WOOD;
+    public static CStrippedWood STRIPPED_GREEN_WOOD;
+    public static CStrippedWood STRIPPED_LIGHT_BLUE_WOOD;
+    public static CStrippedWood STRIPPED_LIGHT_GRAY_WOOD;
+    public static CStrippedWood STRIPPED_LIME_WOOD;
+    public static CStrippedWood STRIPPED_MAGENTA_WOOD;
+    public static CStrippedWood STRIPPED_ORANGE_WOOD;
+    public static CStrippedWood STRIPPED_PINK_WOOD;
+    public static CStrippedWood STRIPPED_PURPLE_WOOD;
+    public static CStrippedWood STRIPPED_RED_WOOD;
+    public static CStrippedWood STRIPPED_WHITE_WOOD;
+    public static CStrippedWood STRIPPED_YELLOW_WOOD;
+
     public static void init() {
         BLEACHED_PLANKS = new CPlankBlock("bleached_planks", 2.0f, 15.0f);
         BLACK_PLANKS = new CPlankBlock("black_planks", 2.0f, 15.0f);
@@ -257,6 +293,44 @@ public class CPlank {
         RED_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("red_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
         WHITE_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("white_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
         YELLOW_PLANK_PRESSURE_PLATE = new CPlankPressurePlate("yellow_plank_pressure_plate", 2.0f, 15.0f, PressurePlateBlock.ActivationRule.EVERYTHING);
+
+        STRIPPED_BLEACHED_LOG = new CStrippedLog("stripped_bleached_log", 2.0f, 15.0f);
+        STRIPPED_BLACK_LOG = new CStrippedLog("stripped_black_log", 2.0f, 15.0f);
+        STRIPPED_BLUE_LOG = new CStrippedLog("stripped_blue_log", 2.0f, 15.0f);
+        STRIPPED_BROWN_LOG = new CStrippedLog("stripped_brown_log", 2.0f, 15.0f);
+        STRIPPED_CYAN_LOG = new CStrippedLog("stripped_cyan_log", 2.0f, 15.0f);
+        STRIPPED_GRAY_LOG = new CStrippedLog("stripped_gray_log", 2.0f, 15.0f);
+        STRIPPED_GREEN_LOG = new CStrippedLog("stripped_green_log", 2.0f, 15.0f);
+        STRIPPED_LIGHT_BLUE_LOG = new CStrippedLog("stripped_light_blue_log", 2.0f, 15.0f);
+        STRIPPED_LIGHT_GRAY_LOG = new CStrippedLog("stripped_light_gray_log", 2.0f, 15.0f);
+        STRIPPED_LIME_LOG = new CStrippedLog("stripped_lime_log", 2.0f, 15.0f);
+        STRIPPED_MAGENTA_LOG = new CStrippedLog("stripped_magenta_log", 2.0f, 15.0f);
+        STRIPPED_ORANGE_LOG = new CStrippedLog("stripped_orange_log", 2.0f, 15.0f);
+        STRIPPED_PINK_LOG = new CStrippedLog("stripped_pink_log", 2.0f, 15.0f);
+        STRIPPED_PURPLE_LOG = new CStrippedLog("stripped_purple_log", 2.0f, 15.0f);
+        STRIPPED_RED_LOG = new CStrippedLog("stripped_red_log", 2.0f, 15.0f);
+        STRIPPED_WHITE_LOG = new CStrippedLog("stripped_white_log", 2.0f, 15.0f);
+        STRIPPED_YELLOW_LOG = new CStrippedLog("stripped_yellow_log", 2.0f, 15.0f);
+
+        STRIPPED_BLEACHED_WOOD = new CStrippedWood("stripped_bleached_wood", 2.0f, 15.0f);
+        STRIPPED_BLACK_WOOD = new CStrippedWood("stripped_black_wood", 2.0f, 15.0f);
+        STRIPPED_BLUE_WOOD = new CStrippedWood("stripped_blue_wood", 2.0f, 15.0f);
+        STRIPPED_BROWN_WOOD = new CStrippedWood("stripped_brown_wood", 2.0f, 15.0f);
+        STRIPPED_CYAN_WOOD = new CStrippedWood("stripped_cyan_wood", 2.0f, 15.0f);
+        STRIPPED_GRAY_WOOD = new CStrippedWood("stripped_gray_wood", 2.0f, 15.0f);
+        STRIPPED_GREEN_WOOD = new CStrippedWood("stripped_green_wood", 2.0f, 15.0f);
+        STRIPPED_LIGHT_BLUE_WOOD = new CStrippedWood("stripped_light_blue_wood", 2.0f, 15.0f);
+        STRIPPED_LIGHT_GRAY_WOOD = new CStrippedWood("stripped_light_gray_wood", 2.0f, 15.0f);
+        STRIPPED_LIME_WOOD = new CStrippedWood("stripped_lime_wood", 2.0f, 15.0f);
+        STRIPPED_MAGENTA_WOOD = new CStrippedWood("stripped_magenta_wood", 2.0f, 15.0f);
+        STRIPPED_ORANGE_WOOD = new CStrippedWood("stripped_orange_wood", 2.0f, 15.0f);
+        STRIPPED_PINK_WOOD = new CStrippedWood("stripped_pink_wood", 2.0f, 15.0f);
+        STRIPPED_PURPLE_WOOD = new CStrippedWood("stripped_purple_wood", 2.0f, 15.0f);
+        STRIPPED_RED_WOOD = new CStrippedWood("stripped_red_wood", 2.0f, 15.0f);
+        STRIPPED_WHITE_WOOD = new CStrippedWood("stripped_white_wood", 2.0f, 15.0f);
+        STRIPPED_YELLOW_WOOD = new CStrippedWood("stripped_yellow_wood", 2.0f, 15.0f);
+
+
 
     }
 }

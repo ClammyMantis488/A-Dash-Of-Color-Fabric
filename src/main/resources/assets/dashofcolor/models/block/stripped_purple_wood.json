@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "dashofcolor:block/stripped_purple_log",
+    "side": "dashofcolor:block/stripped_purple_log"
+  }
+}
