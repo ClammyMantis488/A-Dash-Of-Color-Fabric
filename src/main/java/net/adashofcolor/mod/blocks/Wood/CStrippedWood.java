@@ -23,6 +23,8 @@ import net.minecraft.world.World;
 
 public class CStrippedWood extends PillarBlock {
 
+// Credit to paulevsGitch, sorry I stole your code. I'll rewrite it later
+
     Block result;
 
     public CStrippedWood(Block source, Block result)
@@ -56,5 +58,3 @@ public class CStrippedWood extends PillarBlock {
         return ActionResult.FAIL;
     }
 }
-
-// Wood has same texture all sides (STRIPPED_OAK_WOOD)

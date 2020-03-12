@@ -20,6 +20,8 @@ import net.minecraft.world.World;
 
 public class CStrippedLog extends PillarBlock {
 
+// Credit to paulevsGitch, sorry I stole your code. I'll rewrite it later
+
     Block result;
 
     public CStrippedLog(Block source, Block result)
@@ -53,5 +55,3 @@ public class CStrippedLog extends PillarBlock {
         return ActionResult.FAIL;
     }
 }
-
-// Log has top texture (STRIPPED_OAK_LOG)
