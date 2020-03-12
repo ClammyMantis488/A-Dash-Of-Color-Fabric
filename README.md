@@ -10,6 +10,7 @@ The default texturepack has no textures yet, and the wood doesn't burn. Also but
 ## Added
 
  - [x] Colored Planks* (Block)
+ - [x] Colored Lanterns (Block)
 ## Planned
 
 ☑ Signifies in progress
@@ -30,9 +31,9 @@ The default texturepack has no textures yet, and the wood doesn't burn. Also but
  - [ ] Colored Sea Lanterns (Block)
  - [ ] Colored Prismarine* (Block)
  - [ ] Colored Dark Prismarine* (Block)
- - [ ] Colored Lanterns (Block)
  - [x] Colored Torches (Same as signs)
  - [ ] Colored Flower Pots (Block?)
+ - [x] Colored Wood* (Block) (Which variant do I choose?)
 
 
 ##

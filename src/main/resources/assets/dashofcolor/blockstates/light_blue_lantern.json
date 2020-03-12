@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=true": { "model": "dashofcolor:block/light_blue_hanging_lantern"},
+    "hanging=false": { "model": "dashofcolor:block/light_blue_lantern"}
+  }
+}

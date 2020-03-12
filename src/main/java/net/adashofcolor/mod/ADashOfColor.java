@@ -1,5 +1,7 @@
 package net.adashofcolor.mod;
 
+import net.adashofcolor.mod.blocks.Misc.CLanternBlock;
+import net.adashofcolor.mod.content.CMisc;
 import net.adashofcolor.mod.content.CPlank;
 import net.adashofcolor.mod.content.CSlimeBlock;
 import net.adashofcolor.mod.content.CTorch;
@@ -58,6 +60,25 @@ public class ADashOfColor implements ModInitializer {
 				CTorch.WHITE_WALL_TORCH,
 				CTorch.YELLOW_TORCH,
 				CTorch.YELLOW_WALL_TORCH);
+		CMisc.init();
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+				CMisc.BLEACHED_LANTERN,
+				CMisc.BLACK_LANTERN,
+				CMisc.BLUE_LANTERN,
+				CMisc.BROWN_LANTERN,
+				CMisc.CYAN_LANTERN,
+				CMisc.GRAY_LANTERN,
+				CMisc.GREEN_LANTERN,
+				CMisc.LIGHT_BLUE_LANTERN,
+				CMisc.LIGHT_GRAY_LANTERN,
+				CMisc.LIME_LANTERN,
+				CMisc.MAGENTA_LANTERN,
+				CMisc.ORANGE_LANTERN,
+				CMisc.PINK_LANTERN,
+				CMisc.PURPLE_LANTERN,
+				CMisc.RED_LANTERN,
+				CMisc.WHITE_LANTERN,
+				CMisc.YELLOW_LANTERN);
 	/*	CHopperBlock.init();*/
 
 	}
