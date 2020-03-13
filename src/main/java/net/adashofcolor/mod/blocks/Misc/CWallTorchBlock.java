@@ -4,8 +4,6 @@ import net.adashofcolor.mod.ADashOfColor;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.WallTorchBlock;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 

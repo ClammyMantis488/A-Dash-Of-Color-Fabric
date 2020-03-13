@@ -1,6 +1,5 @@
 package net.adashofcolor.mod;
 
-import net.adashofcolor.mod.blocks.Misc.CLanternBlock;
 import net.adashofcolor.mod.content.CMisc;
 import net.adashofcolor.mod.content.CPlank;
 import net.adashofcolor.mod.content.CSlimeBlock;
@@ -12,7 +11,6 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-/*import net.valeries.mod.blocks.Misc.CHopperBlock;*/
 
 
 public class ADashOfColor implements ModInitializer {
@@ -79,7 +77,5 @@ public class ADashOfColor implements ModInitializer {
 				CMisc.RED_LANTERN,
 				CMisc.WHITE_LANTERN,
 				CMisc.YELLOW_LANTERN);
-	/*	CHopperBlock.init();*/
-
 	}
 }

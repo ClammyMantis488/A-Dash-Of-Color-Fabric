@@ -329,8 +329,5 @@ public class CPlank {
         STRIPPED_RED_WOOD = new CStrippedWood("stripped_red_wood", 2.0f, 15.0f);
         STRIPPED_WHITE_WOOD = new CStrippedWood("stripped_white_wood", 2.0f, 15.0f);
         STRIPPED_YELLOW_WOOD = new CStrippedWood("stripped_yellow_wood", 2.0f, 15.0f);
-
-
-
     }
 }

@@ -13,9 +13,7 @@ public class CPlankPressurePlate extends PressurePlateBlock {
 
     public CPlankPressurePlate(String name, float hardness, float resistance, ActivationRule type) {
         super(ActivationRule.EVERYTHING, Block.Settings.copy(Blocks.OAK_PRESSURE_PLATE));
-        /*super(type, FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).breakByTool(FabricToolTags.AXES, 0).build());*/
         Registry.register(Registry.BLOCK, new Identifier(ADashOfColor.MOD_ID, name), this);
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new BlockItem(this, new Item.Settings().maxCount(64).group(ADashOfColor.DASHOFCOLOR_BLOCKS)));
-
     }
 }

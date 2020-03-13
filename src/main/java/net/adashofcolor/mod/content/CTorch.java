@@ -8,7 +8,6 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
 
-
 public class CTorch {
 
     public static CTorchBlock BLEACHED_TORCH;

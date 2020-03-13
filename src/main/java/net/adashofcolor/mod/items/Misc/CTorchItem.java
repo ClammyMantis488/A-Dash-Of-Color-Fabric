@@ -1,12 +1,8 @@
 package net.adashofcolor.mod.items.Misc;
 
 import net.adashofcolor.mod.ADashOfColor;
-import net.adashofcolor.mod.blocks.Misc.CTorchBlock;
 import net.adashofcolor.mod.content.CTorch;
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.item.WallStandingBlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

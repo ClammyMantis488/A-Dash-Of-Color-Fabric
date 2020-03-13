@@ -41,7 +41,5 @@ public class CMisc {
         RED_LANTERN = new CLanternBlock("red_lantern", 2.0f, 15.0f);
         WHITE_LANTERN = new CLanternBlock("white_lantern", 2.0f, 15.0f);
         YELLOW_LANTERN = new CLanternBlock("yellow_lantern", 2.0f, 15.0f);
-
-
     }
 }

@@ -15,6 +15,5 @@ public class CLanternBlock extends LanternBlock {
         super(Block.Settings.copy(Blocks.LANTERN));
         Registry.register(Registry.BLOCK, new Identifier(ADashOfColor.MOD_ID, name), this);
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new BlockItem(this, new Item.Settings().maxCount(64).group(ADashOfColor.DASHOFCOLOR_BLOCKS)));
-
     }
 }

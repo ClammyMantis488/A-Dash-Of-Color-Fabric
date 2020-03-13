@@ -13,9 +13,7 @@ public class CPlankSlab extends SlabBlock {
 
     public CPlankSlab(String name, float hardness, float resistance) {
         super(Block.Settings.copy(Blocks.OAK_SLAB));
-        /*super(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).breakByTool(FabricToolTags.AXES, 0).build());*/
         Registry.register(Registry.BLOCK, new Identifier(ADashOfColor.MOD_ID, name), this);
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new BlockItem(this, new Item.Settings().maxCount(64).group(ADashOfColor.DASHOFCOLOR_BLOCKS)));
-
     }
 }
