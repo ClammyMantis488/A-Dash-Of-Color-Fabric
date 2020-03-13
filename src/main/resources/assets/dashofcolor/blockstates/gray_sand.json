@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "dashofcolor:block/gray_sand" },
+      { "model": "dashofcolor:block/gray_sand", "y": 90 },
+      { "model": "dashofcolor:block/gray_sand", "y": 180 },
+      { "model": "dashofcolor:block/gray_sand", "y": 270 }
+    ]
+  }
+}

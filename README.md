@@ -11,6 +11,7 @@ The default texturepack has no textures yet, and the wood doesn't burn. Also but
 
  - [x] Colored Planks* (Block)
  - [x] Colored Lanterns (Block)
+ - [x] Colored Sand (Falling Block Entity)
 ## Planned
 
 ☑ Signifies in progress
@@ -34,7 +35,6 @@ The default texturepack has no textures yet, and the wood doesn't burn. Also but
  - [x] Colored Torches (Same as signs)
  - [ ] Colored Flower Pots (Block?)
  - [x] Colored Wood* (Block) (Which variant do I choose?)
- - [ ] Colored Sand (Falling Block Entity)
 
 
 ##
