@@ -1,16 +1,16 @@
 package net.adashofcolor.mod.items.Misc;
 
 import net.adashofcolor.mod.ADashOfColor;
-import net.adashofcolor.mod.content.CTorch;
 import net.minecraft.item.Item;
 import net.minecraft.item.WallStandingBlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class CTorchItem {
-    public CTorchItem(String name) {
-        Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH,  new Item.Settings().maxCount(64).group(ADashOfColor.DASHOFCOLOR_BLOCKS)));
-        /*Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.BLACK_TORCH, CTorch.BLACK_WALL_TORCH, new Item.Settings().maxCount(64)));
+    public CTorchItem(String name, WallStandingBlockItem wallStandingBlockItem) {
+        Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new Item(new Item.Settings().group(ADashOfColor.DASHOFCOLOR_BLOCKS)));
+        /*Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH,  new Item.Settings().maxCount(64).group(ADashOfColor.DASHOFCOLOR_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.BLACK_TORCH, CTorch.BLACK_WALL_TORCH, new Item.Settings().maxCount(64)));
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.BLUE_TORCH, CTorch.BLUE_WALL_TORCH, new Item.Settings().maxCount(64)));
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.BROWN_TORCH, CTorch.BROWN_WALL_TORCH, new Item.Settings().maxCount(64)));
         Registry.register(Registry.ITEM, new Identifier(ADashOfColor.MOD_ID, name), new WallStandingBlockItem(CTorch.CYAN_TORCH, CTorch.CYAN_WALL_TORCH, new Item.Settings().maxCount(64)));

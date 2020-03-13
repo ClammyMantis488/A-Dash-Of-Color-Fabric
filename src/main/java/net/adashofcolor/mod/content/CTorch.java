@@ -1,12 +1,10 @@
 package net.adashofcolor.mod.content;
 
-import net.adashofcolor.mod.ADashOfColor;
 import net.adashofcolor.mod.blocks.Misc.CTorchBlock;
 import net.adashofcolor.mod.blocks.Misc.CWallTorchBlock;
 import net.adashofcolor.mod.items.Misc.CTorchItem;
-import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.item.WallStandingBlockItem;
 
 public class CTorch {
 
@@ -102,22 +100,26 @@ public class CTorch {
         WHITE_WALL_TORCH = new CWallTorchBlock("white_wall_torch");
         YELLOW_WALL_TORCH = new CWallTorchBlock("yellow_wall_torch");
 
-        BLEACHED_TORCH_ITEM = new CTorchItem("bleached_torch");
-        BLACK_TORCH_ITEM = new CTorchItem("black_torch");
-        BLUE_TORCH_ITEM = new CTorchItem("blue_torch");
-        BROWN_TORCH_ITEM = new CTorchItem("brown_torch");
-        CYAN_TORCH_ITEM = new CTorchItem("cyan_torch");
-        GRAY_TORCH_ITEM = new CTorchItem("gray_torch");
-        GREEN_TORCH_ITEM = new CTorchItem("green_torch");
-        LIGHT_BLUE_TORCH_ITEM = new CTorchItem("light_blue_torch");
-        LIGHT_GRAY_TORCH_ITEM = new CTorchItem("light_gray_torch");
-        LIME_TORCH_ITEM = new CTorchItem("lime_torch");
-        MAGENTA_TORCH_ITEM = new CTorchItem("magenta_torch");
-        ORANGE_TORCH_ITEM = new CTorchItem("orange_torch");
-        PINK_TORCH_ITEM = new CTorchItem("pink_torch");
-        PURPLE_TORCH_ITEM = new CTorchItem("purple_torch");
-        RED_TORCH_ITEM = new CTorchItem("red_torch");
-        WHITE_TORCH_ITEM = new CTorchItem("white_torch");
-        YELLOW_TORCH_ITEM = new CTorchItem("yellow_torch");
+        /*BLEACHED_TORCH_ITEM = new CTorchItem("bleached_torch");*/
+        BLACK_TORCH_ITEM = new CTorchItem("black_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        BLUE_TORCH_ITEM = new CTorchItem("blue_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        BROWN_TORCH_ITEM = new CTorchItem("brown_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        CYAN_TORCH_ITEM = new CTorchItem("cyan_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        GRAY_TORCH_ITEM = new CTorchItem("gray_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        GREEN_TORCH_ITEM = new CTorchItem("green_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        LIGHT_BLUE_TORCH_ITEM = new CTorchItem("light_blue_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        LIGHT_GRAY_TORCH_ITEM = new CTorchItem("light_gray_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        LIME_TORCH_ITEM = new CTorchItem("lime_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        MAGENTA_TORCH_ITEM = new CTorchItem("magenta_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        ORANGE_TORCH_ITEM = new CTorchItem("orange_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        PINK_TORCH_ITEM = new CTorchItem("pink_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        PURPLE_TORCH_ITEM = new CTorchItem("purple_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        RED_TORCH_ITEM = new CTorchItem("red_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        WHITE_TORCH_ITEM = new CTorchItem("white_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+        YELLOW_TORCH_ITEM = new CTorchItem("yellow_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
+
+        /*BLEACHED_TORCH_ITEM = new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new CTorchItem("bleached_torch"));*/
+
+        BLEACHED_TORCH_ITEM = new CTorchItem("bleached_torch", new WallStandingBlockItem(CTorch.BLEACHED_TORCH, CTorch.BLEACHED_WALL_TORCH, new Item.Settings().maxCount(64)));
     }
 }

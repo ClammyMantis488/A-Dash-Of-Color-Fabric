@@ -22,7 +22,6 @@ public class CMisc {
     public static CLanternBlock WHITE_LANTERN;
     public static CLanternBlock YELLOW_LANTERN;
 
-
     public static void init() {
         BLEACHED_LANTERN = new CLanternBlock("bleached_lantern", 2.0f, 15.0f);
         BLACK_LANTERN = new CLanternBlock("black_lantern", 2.0f, 15.0f);
