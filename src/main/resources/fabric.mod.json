@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "adashofcolor",
-  "version": "0.0.4",
+  "id": "dashofcolor",
+  "version": "${version}",
 
   "name": "A Dash Of Color",
   "description": "Remember that tweet by Dinnerbone about colored wood 7 years ago? I do.",
